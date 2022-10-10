@@ -1,0 +1,54 @@
+// Btns
+.main-btn {
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    font-size: 16px;
+    -webkit-border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: fit-content;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: $main-color;
+    color: white;
+    .icon {
+        font-size: 20px;
+    }
+}
+
+
+.theme-btn.style-four {
+    box-shadow: 0 10px 20px rgb(254 193 92 / 50%);
+  }
+  
+  .theme-btn.style-four {
+    background: linear-gradient(
+        90deg,
+        var(--c1, #ff6227),
+        var(--c2, #fec15c) 50%,
+        var(--c1, #ff6227)
+      )
+      var(--x, 0) / 200%;
+  }
+  
+  .theme-btn {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #fff !important;
+    padding: 14px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    transition: all 500ms ease;
+  }
+  
